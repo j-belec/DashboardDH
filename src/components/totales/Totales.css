@@ -1,0 +1,10 @@
+.total {
+  border: 3px solid #598392;
+  border-radius: 4px;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.total h2 {
+  margin-bottom: 15px;
+}
