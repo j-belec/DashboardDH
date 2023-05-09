@@ -12,7 +12,7 @@ function AmountsByCategory() {
 
   return (
     <div className="total">
-      <h2>Count by Category</h2>
+      <h2>Total de productos por categoria</h2>
       <ul>
         {products.countByCategory?.map((category) => (
           <li key={category.category_name}>
