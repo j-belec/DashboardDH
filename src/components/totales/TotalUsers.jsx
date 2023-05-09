@@ -10,7 +10,7 @@ function TotalUsers() {
       .then((users) => {
         setUsers(users.count);
       });
-  }, []);
+  }, [users]);
 
   return (
     <div className="total">

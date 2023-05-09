@@ -8,7 +8,7 @@ function AmountsByCategory() {
     fetch("http://localhost:3100/api/products/all")
       .then(response => response.json())
       .then(data => setProducts(data));
-  }, [products]);
+  }, []);
 
   return (
     <div className="total">

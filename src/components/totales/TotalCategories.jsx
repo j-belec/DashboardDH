@@ -10,7 +10,7 @@ function TotalCategories() {
       .then((products) => {
         setCategories(Object.keys(products.countByCategory).length);
       });
-  }, []);
+  }, [categories]);
 
   return (
     <div className="total">

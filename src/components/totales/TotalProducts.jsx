@@ -10,7 +10,7 @@ function TotalProducts() {
       .then((products) => {
         setProducts(products.count);
       });
-  }, []);
+  }, [products]);
 
   return (
     <div className="total">
