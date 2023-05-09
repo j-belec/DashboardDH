@@ -1,0 +1,10 @@
+.listado-productos {
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.productos {
+    width: 100%;
+}
