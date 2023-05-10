@@ -5,7 +5,7 @@ import TotalUsers from "./components/totales/TotalUsers";
 import TotalCategories from "./components/totales/TotalCategories";
 import ListadoProducts from "./components/listado/ListadoProducts";
 import AmountsByCategory from "./components/totales/AmountByCategories";
-
+import UltimoProducto from "./components/ultimoProducto/UltimoProducto";
 
 function App() {
   return (
@@ -24,7 +24,9 @@ function App() {
 
         <div className="">
           <AmountsByCategory />
+          <UltimoProducto />
         </div>
+        
 
       </div>
     </main>
