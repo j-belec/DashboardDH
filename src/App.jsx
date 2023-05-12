@@ -6,6 +6,12 @@ import TotalCategories from "./components/totales/TotalCategories";
 import ListadoProducts from "./components/listado/ListadoProducts";
 import AmountsByCategory from "./components/totales/AmountByCategories";
 import UltimoProducto from "./components/ultimoProducto/UltimoProducto";
+import UncontrolledExample from "./components/carrousel/carrousel";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
 
 function App() {
   return (
@@ -24,8 +30,11 @@ function App() {
 
         <div className="">
           <AmountsByCategory />
-          <UltimoProducto />
+          <UncontrolledExample/>
+         
         </div>
+        
+
         
 
       </div>
